@@ -197,9 +197,9 @@ function renderBookmarkForm(bookmark = null) {
     if (create) bookmark = newBookmark();
     $("#actionTitle").text(create ? "Création" : "Modification");
     $("#content").append(`
+    <img src="https://www.google.com/s2/favicons?sz=32&domain=${bookmark.Url}" class="appLogo">
         <form class="form" id="bookmarkForm">
             <input type="hidden" name="Id" value="${bookmark.Id}"/>
-
             <label for="Title" class="form-label">Titre </label>
             <input 
                 class="form-control Alpha"

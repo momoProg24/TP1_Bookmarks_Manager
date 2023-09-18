@@ -1,5 +1,5 @@
 let contentScrollPosition = 0;
-let selectedCategory = ""; // Ajout d'une variable pour stocker la catégorie sélectionnée
+let selectedCategory = "";
 let trierCategorie = "";
 Init_UI();
 
